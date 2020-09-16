@@ -1,0 +1,156 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*header section css*/
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.menu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 52px;
+}
+.menu-item ul li a{
+	text-transform: uppercase;
+	color: #626262;
+}
+.menu-item ul li a:hover{
+	color: black;
+}
+/*post-conten*/
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.post-content{
+	padding: 53px;
+}
+.category{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.title{
+	color: #626262;
+	margin: 21px 0;
+}
+.desc{
+	color: #626262;
+	margin-bottom: 35px;
+}
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+/*post gallery css*/
+.post{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	padding: 53px;
+	display: flow-root;
+}
+.post{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.left{
+	width: 48%;
+	float: left;
+}
+.right{
+	width: 48%;
+	float: right;
+}
+.post .category{
+	margin-top: 25px;
+}
+/* subscription section css */
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	text-align: center;
+	padding: 60px 0;
+}
+.subscription h1{
+	margin-bottom: 38px;
+	display: flow-root;
+}
+form input{
+	padding: 15px 0px;
+    width: 380px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+
+}form input:focus{
+	outline: none;
+}
+form{
+	position: relative;
+}
+form input::placeholder{
+	font-size: 15px;
+}
+form i{
+	position: absolute;
+	top: 21px;
+    right: 380px;
+}
+
+.btn{
+	text-align: center;
+	margin: 30px 0;
+}
+.btn button{
+	padding: 22px 44px;
+	background: transparent;
+	border: none;
+	border: 1px solid black;
+	font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
